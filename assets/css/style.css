@@ -1478,7 +1478,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .blog-posts-list { gap: 30px; }
 
-  .blog-content { padding: 25px; }
+  .blog-content { padding: 35px; }
 
 
 
@@ -1847,4 +1847,26 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+.blog-post-item {
+  position: relative;
+  padding-bottom: 2rem; 
+}
+
+.icon-container {
+  position: absolute;
+  bottom: 40px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+  z-index: 1;
+}
+
+.icon ion-icon {
+  font-size: 1.5rem; 
+  color: var(--light-gray); /* Adjust icon color as needed */
+}
+
+.icon:hover ion-icon {
+  color: var( --light-gray-70); /* Change icon color on hover */
 }
